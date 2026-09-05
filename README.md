@@ -35,4 +35,4 @@ RF12 el sistema debe permitir al admin eliminar  el horario
 RF13 el sistema debe permitir al admin eliminar  un trabajador
 RF14 el sistema debe permitir al admin eliminar  un cliente
 
-
+git remote add origin https://github.com/DonLlogui/peluquer-a-Sena.git
