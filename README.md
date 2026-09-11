@@ -38,21 +38,21 @@ El sistema debe permitir gestionar y consultar los horarios de los trabajadores.
 ## Requisitos funcionales identificados<br>
 <br>
 | ID | Requisito funcional |<br>
-|---|---|
-| **RF01** | El sistema debe permitir al Admin crear una cuenta para un nuevo cliente. |<br>
-| **RF02** | El sistema debe permitir al nuevo cliente crear su propia cuenta. |<br>
-| **RF03** | El sistema debe permitir al nuevo cliente iniciar sesión (**LOGIN**). |<br>
-| **RF04** | El sistema debe permitir al Admin crear una cuenta para un nuevo trabajador. |<br>
-| **RF05** | El sistema debe permitir al nuevo trabajador iniciar sesión. |<br>
-| **RF06** | El sistema debe permitir al cliente visualizar los horarios de los trabajadores. |<br>
-| **RF07** | El sistema debe permitir al Admin visualizar los horarios de los trabajadores. |<br>
-| **RF08** | El sistema debe permitir al trabajador visualizar sus propios horarios. |<br>
-| **RF09** | El sistema debe permitir al trabajador editar sus horarios. |<br>
-| **RF10** | El sistema debe permitir al trabajador eliminar sus horarios. |<br>
-| **RF11** | El sistema debe permitir al Admin editar los horarios de los trabajadores. |<br>
-| **RF12** | El sistema debe permitir al Admin eliminar los horarios de los trabajadores. |<br>
-| **RF13** | El sistema debe permitir al Admin eliminar un trabajador. |<br>
-| **RF14** | El sistema debe permitir al Admin eliminar un cliente. |<br>
+--- ---
+**RF01** El sistema debe permitir al Admin crear una cuenta para un nuevo cliente. <br>
+**RF02** El sistema debe permitir al nuevo cliente crear su propia cuenta. <br>
+**RF03** El sistema debe permitir al nuevo cliente iniciar sesión (**LOGIN**). <br>
+**RF04** El sistema debe permitir al Admin crear una cuenta para un nuevo trabajador. <br>
+**RF05** El sistema debe permitir al nuevo trabajador iniciar sesión. <br>
+**RF06** El sistema debe permitir al cliente visualizar los horarios de los trabajadores. <br>
+**RF07** El sistema debe permitir al Admin visualizar los horarios de los trabajadores |<br>
+**RF08** El sistema debe permitir al trabajador visualizar sus propios horarios. <br>
+**RF09** El sistema debe permitir al trabajador editar sus horarios. <br>
+**RF10** El sistema debe permitir al trabajador eliminar sus horarios. <br>
+**RF11** El sistema debe permitir al Admin editar los horarios de los trabajadores. <br>
+**RF12** El sistema debe permitir al Admin eliminar los horarios de los trabajadores. <br>
+**RF13** El sistema debe permitir al Admin eliminar un trabajador. <br>
+**RF14** El sistema debe permitir al Admin eliminar un cliente. <br>
 <br>
 Roles del sistema<br>
 <br>
