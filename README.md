@@ -1,38 +1,83 @@
-# peluquer-a-Sena
-proyecto peluquera node mysql javascript
-05-09-2026 se creo los requistos funcionales
+# Proyecto: Peluquera
 
-1 que el software debe mostrarle al cliente los trabajadores disponibles
+**Tecnologías:** Node.js, MySQL y JavaScript  
+  
+**Fecha:** 05-09-2026  
+  
+## Requisitos funcionales  
+  
+El 05-09-2026 se definieron los siguientes requisitos funcionales para el sistema de gestión de peluquería.  
+  
+### 1. Gestión de trabajadores disponibles  
+  
+El software debe permitirle al cliente visualizar los trabajadores disponibles.  
+  
+#### Requisitos  
+  
+- **A.** Debe existir un usuario **Administrador (Admin)** que pueda crear cuentas de clientes.  
+- **B.** El cliente debe poder crear su propia cuenta.  
+- **C.** El cliente debe poder validar su cuenta para comprobar que es un usuario real y, posteriormente, acceder a la lista de trabajadores.  
+- **D.** Debe existir una vista para que el **Admin** pueda crear trabajadores.  
+- **E.** Debe existir una vista para validar los trabajadores.  
+  
+### 2. Gestión de horarios de los trabajadores  
 
-A debe existir un ente Amin que pueda crear a ese usuario cliente
-B cliente puede su propia cuenta
-C  que ese usuario cliente pueda validarse si ese real o no para poder ver la lista de trabajadores
+El sistema debe permitir gestionar y consultar los horarios de los trabajadores.  
 
-D existir un vista para que el Amin cree esos trabajadores
-E existir una vista que valide los trabajadores
+#### Requisitos  
 
-2 los horarios de esos trabajadores
-A cliente puede visualizar horarios de trabajadores disponible 
-B Admin puede visualizar horarios de trabajadores disponible 
-C  trabajador puede visualizar horarios de trabajadores disponible
-D trabador puede editar  horarios de trabajadores
-E trabajador eliminar horarios de trabajadores
-F E Admin eliminar horarios de trabajadores
+- **A.** El cliente puede visualizar los horarios de los trabajadores disponibles.  
+- **B.** El Admin puede visualizar los horarios de los trabajadores disponibles.  
+- **C.** El trabajador puede visualizar sus propios horarios.  
+- **D.** El trabajador puede editar sus horarios.  
+- **E.** El trabajador puede eliminar sus horarios.  
+- **F.** El Admin puede eliminar los horarios de los trabajadores.  
+  
+---
+  
+## Requisitos funcionales identificados  
+  
+| ID | Requisito funcional |  
+|---|---|
+| **RF01** | El sistema debe permitir al Admin crear una cuenta para un nuevo cliente. |  
+| **RF02** | El sistema debe permitir al nuevo cliente crear su propia cuenta. |  
+| **RF03** | El sistema debe permitir al nuevo cliente iniciar sesión (**LOGIN**). |  
+| **RF04** | El sistema debe permitir al Admin crear una cuenta para un nuevo trabajador. |  
+| **RF05** | El sistema debe permitir al nuevo trabajador iniciar sesión. |  
+| **RF06** | El sistema debe permitir al cliente visualizar los horarios de los trabajadores. |  
+| **RF07** | El sistema debe permitir al Admin visualizar los horarios de los trabajadores. |  
+| **RF08** | El sistema debe permitir al trabajador visualizar sus propios horarios. |  
+| **RF09** | El sistema debe permitir al trabajador editar sus horarios. |  
+| **RF10** | El sistema debe permitir al trabajador eliminar sus horarios. |  
+| **RF11** | El sistema debe permitir al Admin editar los horarios de los trabajadores. |  
+| **RF12** | El sistema debe permitir al Admin eliminar los horarios de los trabajadores. |  
+| **RF13** | El sistema debe permitir al Admin eliminar un trabajador. |  
+| **RF14** | El sistema debe permitir al Admin eliminar un cliente. |  
+  
+## Roles del sistema  
+  
+El sistema contará inicialmente con tres tipos de usuarios:  
+  
+1. **Administrador (Admin)**  
+   - Crear clientes.  
+   - Crear trabajadores.  
+   - Visualizar horarios.  
+   - Editar horarios.  
+   - Eliminar horarios.  
+   - Eliminar trabajadores.  
+   - Eliminar clientes.  
+  
+2. **Cliente**  
+   - Crear su propia cuenta.  
+   - Iniciar sesión.  
+   - Validar su cuenta.  
+   - Visualizar trabajadores disponibles.  
+   - Visualizar horarios de los trabajadores.  
 
-RF01 el sistema debe permitir al admin crear una cuenta de nuevo cliente
-RF02 el sistema debe permitir al nuevo cliente crear su cuenta
-RF03 el sistema debe permitir al nuevo cliente entrar al sistema (LOGIN)
-RF04 el sistema debe permitir al admin crear una cuenta de nuevo de trabajadores
-RF05 el sistema debe permitir al nuevo trabajador entrar al sistema
-RF06 el sistema debe permitir al cliente visualizar horarios de trabajador
-RF07 el sistema debe permitir al admin visualizar horarios de trabajador
-RF08 el sistema debe permitir al trabajador  visualizar sus horarios 
-RF09 el sistema debe permitir al trabajador editar su horario
-RF10 el sistema debe permitir al trabajador eliminar el horario
-RF11 el sistema debe permitir al admin editar  el horario
-
-RF12 el sistema debe permitir al admin eliminar  el horario
-RF13 el sistema debe permitir al admin eliminar  un trabajador
-RF14 el sistema debe permitir al admin eliminar  un cliente
-
+3. **Trabajador**  
+   - Iniciar sesión.  
+   - Visualizar sus horarios.  
+   - Editar sus horarios.  
+   - Eliminar sus horarios.  
+  
 git remote add origin https://github.com/DonLlogui/peluquer-a-Sena.git
