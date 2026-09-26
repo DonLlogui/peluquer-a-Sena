@@ -2,6 +2,6 @@ const express = require('express');
 const CRutas = require('../../controlador/cliente/CrearClienteControlador');
 const router = express.Router();
 
-router.post('/usuarios', CRutas.crearCliente);
+router.post('/usuarios/crear', CRutas.crearCliente);
 
 module.exports = router;
